@@ -4,6 +4,12 @@
 
 `lgGOMT.go` is a Go (Golang) automation script using the Playwright framework to interact with a website (`http://www.lg4all.com/pod`). The script is designed to perform browser automation tasks for multiple codes in parallel. Each code triggers a new browser session that automates various webpage interactions, such as navigation, handling dialogs, checking checkboxes, collecting messages, and extracting data.
 
+This architecture ensures your Go applications run reliably while minimizing EC2 costs by keeping instances active only when needed.
+
+<img width="1420" height="1368" alt="Screenshot 2025-07-18 at 12 40 36" src="https://github.com/user-attachments/assets/aa5f785b-c396-4f1b-8d52-c506312f6c84" />
+
+
+
 ## Features
 
 - **Parallel Automation:**  
@@ -120,3 +126,9 @@ This project is provided as-is for educational and automation purposes.
 
 **Note:**  
 Always review automated browser usage policies and site terms to ensure compliance before running scripts against third-party websites.
+
+
+
+
+
+
