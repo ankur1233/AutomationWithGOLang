@@ -40,7 +40,7 @@ func runAutomation(code string, wg *sync.WaitGroup) {
 	}
 
 	// Example navigation using code
-	_, err = page.Goto("http://www.lg4all.com/pod/?Code=" + code)
+	_, err = page.Goto("http://www.ll.com/pod/?Code=" + code)
 	if err != nil {
 		log.Fatalf("could not goto: %v", err)
 	}
@@ -103,7 +103,7 @@ func main() {
 	var wg sync.WaitGroup
 
 	// List of codes or parameters for each run
-	codes := []string{"IN058035001H", "IN058035001I", "IN058035001J","IN058035001J","IN058035001J","IN058035001J","IN058035001J"}
+	codes := []string{"IN05803500XX", "IN05803500XX", "IN05803500","XX","IN0580350XX","XX","XX"}
 
 	wg.Add(len(codes))
 	for _, code := range codes {
