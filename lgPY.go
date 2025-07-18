@@ -31,7 +31,7 @@ func main() {
 	}
 
 	// Navigate to the URL
-	_, err = page.Goto("http://www.lg4all.com/pod/?Code=IN058035001H")
+	_, err = page.Goto("http://www.nn.com/pod/?Code=")
 	if err != nil {
 		log.Fatalf("could not goto: %v", err)
 	}
